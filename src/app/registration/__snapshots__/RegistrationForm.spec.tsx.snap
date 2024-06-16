@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationForm disables register button while submitting 1`] = `
+<button
+  class="w-full py-2.5 px-4 text-sm rounded text-white bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 focus:outline-none mt-6"
+  data-testid="register-button"
+  disabled=""
+>
+  Registering...
+</button>
+`;
+
+exports[`RegistrationForm renders invalid email error 1`] = `
+<div
+  class="py-2"
+  data-testid="email-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="email"
+  >
+    Email
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="email"
+    name="email"
+    placeholder="Enter email"
+    type="text"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Email is invalid
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationForm renders passwords match error 1`] = `
+<div
+  class="py-2"
+  data-testid="confirm-password-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="confirm-password"
+  >
+    Confirm Password
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="confirm-password"
+    name="confirmPassword"
+    placeholder="Enter confirm password"
+    type="password"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Passwords do not match
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationForm renders required email and passwords errors 1`] = `
+<div
+  class="py-2"
+  data-testid="email-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="email"
+  >
+    Email
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="email"
+    name="email"
+    placeholder="Enter email"
+    type="text"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Email is required
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationForm renders required email and passwords errors 2`] = `
+<div
+  class="py-2"
+  data-testid="password-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="password"
+  >
+    Password
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="password"
+    name="password"
+    placeholder="Enter password"
+    type="password"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Password is required
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RegistrationForm renders required email and passwords errors 3`] = `
+<div
+  class="py-2"
+  data-testid="confirm-password-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="confirm-password"
+  >
+    Confirm Password
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="confirm-password"
+    name="confirmPassword"
+    placeholder="Enter confirm password"
+    type="password"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Confirm password is required
+    </div>
+  </div>
+</div>
+`;

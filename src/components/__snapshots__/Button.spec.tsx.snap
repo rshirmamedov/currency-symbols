@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders 1`] = `
+<div>
+  <button
+    class="w-full py-2.5 px-4 text-sm rounded text-white bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 focus:outline-none mt-6"
+  >
+    Login
+  </button>
+</div>
+`;

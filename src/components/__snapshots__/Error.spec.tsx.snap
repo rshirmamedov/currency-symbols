@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error renders with custom message 1`] = `
+<div>
+  <div
+    class="text-sm text-red-600"
+  >
+    Username is required
+  </div>
+</div>
+`;
+
+exports[`Error renders with default message 1`] = `
+<div>
+  <div
+    class="text-sm text-red-600"
+  >
+    Something went wrong!
+  </div>
+</div>
+`;

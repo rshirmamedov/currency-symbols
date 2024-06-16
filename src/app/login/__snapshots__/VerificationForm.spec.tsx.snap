@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerificationForm disables verify button while submitting 1`] = `
+<button
+  class="w-full py-2.5 px-4 text-sm rounded text-white bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 focus:outline-none mt-6"
+  data-testid="verify-button"
+  disabled=""
+>
+  Verifying...
+</button>
+`;
+
+exports[`VerificationForm renders invalid verification code error 1`] = `
+<div
+  class="py-2"
+  data-testid="code-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="code"
+  >
+    Verification code (4 digits)
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="code"
+    name="code"
+    placeholder="Enter 4-digit verification code"
+    type="number"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Verification code is invalid
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VerificationForm renders required verification code error 1`] = `
+<div
+  class="py-2"
+  data-testid="code-field"
+>
+  <label
+    class="block text-sm font-medium leading-6 text-gray-900"
+    for="code"
+  >
+    Verification code (4 digits)
+  </label>
+  <input
+    class="w-full text-sm p-3 rounded outline-none border-2 focus:border-blue-500"
+    id="code"
+    name="code"
+    placeholder="Enter 4-digit verification code"
+    type="number"
+  />
+  <div
+    class="pt-2"
+  >
+    <div
+      class="text-sm text-red-600"
+    >
+      Verification code is required
+    </div>
+  </div>
+</div>
+`;
